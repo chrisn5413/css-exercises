@@ -38,7 +38,6 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  flex: 1;
 }
 
 .footer {
@@ -71,7 +70,9 @@ a {
 
 .content {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   align-items: center;
-  flex: 2;
+  justify-content: center;
+  flex: 1;
+  gap: 16px;
 }
