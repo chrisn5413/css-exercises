@@ -34,7 +34,6 @@ body {
 
 .header {
   font-weight: bold;
-  text-wrap: wrap;
   flex: 1;
 }
 
@@ -53,7 +52,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: none;
+  flex-shrink: 0;
 }
 
 .close-button {
